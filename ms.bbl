@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{28}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -61,6 +61,53 @@
   \bibnamefont{et~al.}, \bibinfo{journal}{Living Reviews in Relativity}
   \textbf{\bibinfo{volume}{16}}, \bibinfo{pages}{6} (\bibinfo{year}{2013}),
   \eprint{1206.1225}.
+
+\bibitem[{\citenamefont{{Planck Collaboration}
+  et~al.}(2015{\natexlab{a}})\citenamefont{{Planck Collaboration}, {Adam},
+  {Ade}, {Aghanim}, {Akrami}, {Alves}, {Arnaud}, {Arroja}, {Aumont},
+  {Baccigalupi} et~al.}}]{2015arXiv150201582P}
+\bibinfo{author}{\bibnamefont{{Planck Collaboration}}},
+  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Adam}}},
+  \bibinfo{author}{\bibfnamefont{P.~A.~R.} \bibnamefont{{Ade}}},
+  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Aghanim}}},
+  \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{{Akrami}}},
+  \bibinfo{author}{\bibfnamefont{M.~I.~R.} \bibnamefont{{Alves}}},
+  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Arnaud}}},
+  \bibinfo{author}{\bibfnamefont{F.}~\bibnamefont{{Arroja}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Aumont}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Baccigalupi}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
+  (\bibinfo{year}{2015}{\natexlab{a}}), \eprint{1502.01582}.
+
+\bibitem[{\citenamefont{{Wu} et~al.}(2014)\citenamefont{{Wu}, {Errard},
+  {Dvorkin}, {Kuo}, {Lee}, {McDonald}, {Slosar}, and
+  {Zahn}}}]{2014ApJ...788..138W}
+\bibinfo{author}{\bibfnamefont{W.~L.~K.} \bibnamefont{{Wu}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Errard}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Dvorkin}}},
+  \bibinfo{author}{\bibfnamefont{C.~L.} \bibnamefont{{Kuo}}},
+  \bibinfo{author}{\bibfnamefont{A.~T.} \bibnamefont{{Lee}}},
+  \bibinfo{author}{\bibfnamefont{P.}~\bibnamefont{{McDonald}}},
+  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Slosar}}}, \bibnamefont{and}
+  \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{{Zahn}}},
+  \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{788}}, \bibinfo{eid}{138}
+  (\bibinfo{year}{2014}), \eprint{1402.4108}.
+
+\bibitem[{\citenamefont{{Abazajian} et~al.}(2013)\citenamefont{{Abazajian},
+  {Arnold}, {Austermann}, {Benson}, {Bischoff}, {Bock}, {Bond}, {Borrill},
+  {Calabrese}, {Carlstrom} et~al.}}]{2013arXiv1309.5383A}
+\bibinfo{author}{\bibfnamefont{K.~N.} \bibnamefont{{Abazajian}}},
+  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Arnold}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Austermann}}},
+  \bibinfo{author}{\bibfnamefont{B.~A.} \bibnamefont{{Benson}}},
+  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Bischoff}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Bock}}},
+  \bibinfo{author}{\bibfnamefont{J.~R.} \bibnamefont{{Bond}}},
+  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Borrill}}},
+  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Calabrese}}},
+  \bibinfo{author}{\bibfnamefont{J.~E.} \bibnamefont{{Carlstrom}}},
+  \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
+  (\bibinfo{year}{2013}), \eprint{1309.5383}.
 
 \bibitem[{\citenamefont{{Chang} et~al.}(2008)\citenamefont{{Chang}, {Pen},
   {Peterson}, and {McDonald}}}]{2008:21cm}
@@ -229,9 +276,9 @@
   \eprint{1304.3712}.
 
 \bibitem[{\citenamefont{{Planck Collaboration}
-  et~al.}(2015)\citenamefont{{Planck Collaboration}, {Ade}, {Aghanim},
-  {Arnaud}, {Ashdown}, {Aumont}, {Baccigalupi}, {Banday}, {Barreiro},
-  {Bartlett} et~al.}}]{2015:plancklensing}
+  et~al.}(2015{\natexlab{b}})\citenamefont{{Planck Collaboration}, {Ade},
+  {Aghanim}, {Arnaud}, {Ashdown}, {Aumont}, {Baccigalupi}, {Banday},
+  {Barreiro}, {Bartlett} et~al.}}]{2015:plancklensing}
 \bibinfo{author}{\bibnamefont{{Planck Collaboration}}},
   \bibinfo{author}{\bibfnamefont{P.~A.~R.} \bibnamefont{{Ade}}},
   \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Aghanim}}},
@@ -243,7 +290,7 @@
   \bibinfo{author}{\bibfnamefont{R.~B.} \bibnamefont{{Barreiro}}},
   \bibinfo{author}{\bibfnamefont{J.~G.} \bibnamefont{{Bartlett}}},
   \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
-  (\bibinfo{year}{2015}), \eprint{1502.01591}.
+  (\bibinfo{year}{2015}{\natexlab{b}}), \eprint{1502.01591}.
 
 \bibitem[{\citenamefont{{Liu} et~al.}(2011)\citenamefont{{Liu}, {Ng}, and
   {Pen}}}]{2011PhRvD..83f3001L}

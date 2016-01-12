@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.19)  5 JAN 2016 16:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=latex 2015.10.19)  12 JAN 2016 19:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,22 +244,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 85.
-
-Underfull \hbox (badness 1565) in paragraph at lines 137--156
-\OT1/ptm/m/n/10 dis-tor-tions in the lo-cal small scale power spec-turm, $\OMS/
-cmsy/m/n/10 /
- []
-
-[1]
+ [1]
 File: 1.000ratio2d_fswf.eps Graphic file (type eps)
- <1.000ratio2d_fswf.eps> [2]
+
+<1.000ratio2d_fswf.eps> [2]
 File: fig1b.eps Graphic file (type eps)
  <fig1b.eps>
 File: f8.eps Graphic file (type eps)
- <f8.eps> [3]
+ <f8.eps>
+Overfull \hbox (17.03494pt too wide) in alignment at lines 370--374
+ [][][] []
+ []
+
+[3]
 
 LaTeX Warning: A float is stuck (cannot be placed); try class option [floatfix]
- on input line 395.
+ on input line 405.
 
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
@@ -272,12 +272,12 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 62.
  [4]) [5] (./ms.aux) ) 
 Here is how much of TeX's memory you used:
- 3573 strings out of 493090
- 44601 string characters out of 6134867
- 122222 words of memory out of 5000000
- 7008 multiletter control sequences out of 15000+600000
+ 3583 strings out of 493090
+ 44855 string characters out of 6134867
+ 124653 words of memory out of 5000000
+ 7018 multiletter control sequences out of 15000+600000
  18261 words of font info for 59 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 29i,10n,26p,486b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,10n,26p,448b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ms.dvi (5 pages, 35784 bytes).
+Output written on ms.dvi (5 pages, 36472 bytes).

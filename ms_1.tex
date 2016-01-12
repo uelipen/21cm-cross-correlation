@@ -211,11 +211,11 @@ P_\delta/(P_{\kappa_\mr{3d}}/b^2)$.
 {\it Simulation setup.}---We further explore this idea with numerical 
 simulations. We employ an ensemble of six $N$-body simulations from the
 $\mr{CUBEP}^3\mr{M}$ code \cite{2013:code}. 
-Each simulation includes $2048^3$ particles in a $(1.2\mr{Gpc}/h)^3$ box. 
-%with following cosmological parameters: Hubble parameter $h=0.678$, baryon
-%density $\Omega_{b}=0.049$, dark matter density $\Omega_{c}=0.259$,
-%amplitude of primordial curvature power spectrum $A_s=2.139\times10^{-9}$ at 
-%$k_0=0.05\;\mr{Mpc}^{-1}$ and scalar spectral index $n_s=0.968$.
+Each simulation includes $2048^3$ particles in a $(1.2\mr{Gpc}/h)^3$ box 
+with following cosmological parameters: Hubble parameter $h=0.678$, baryon
+density $\Omega_{b}=0.049$, dark matter density $\Omega_{c}=0.259$,
+amplitude of primordial curvature power spectrum $A_s=2.139\times10^{-9}$ at 
+$k_0=0.05\;\mr{Mpc}^{-1}$ and scalar spectral index $n_s=0.968$.
 In the following analysis we use outputs at $z=1$.
 
 \begin{figure}[tbp]
@@ -223,10 +223,10 @@ In the following analysis we use outputs at $z=1$.
 \includegraphics[width=0.48\textwidth]{1.000ratio2d_fswf.eps}
 \end{center}
 \vspace{-0.7cm}
-\caption{(Top) The ratio of the power spectra of the 
+\caption{The upper panel shows the ratio between the power spectra of the 
 foreground subtracted density field and the original density field, i.e. 
 $P_{\delta_{fs}}/P_\delta$. 
-(Bottom) The ratio of the power spectra of the reconstructed 
+The lower panel shows the ratio between the power spectra of the reconstructed 
 field and the original density field, i.e. $P_{\kappa_c}/P_\delta$.
 Here we show results for $R_\parallel=60\ \mr{Mpc}/h$.}
 \label{fig:ratio}
@@ -312,81 +312,74 @@ simulation box to a 2D plane, then multiply the $W(\chi)$ at $z=1$, as the
 lensing weight is a slowly varying function for the case of CMB lensing.
 Then we obtain the 2D convergence field contributed by the simulated density.
 
-(2) Photo-$z$ galaxies.---We calculate the projected galaxy density field at 
-$z\sim 1$ with usual photo-$z$ bin width of $0.2$, i.e. $z_\mr{p}\in(0.9,1.1)$. 
+(2) Photo-$z$ galaxies.---We calculate the projected galaxy density field 
+at $z\sim 1$ with usual photo-$z$ bin width of $0.2$, i.e. $z^P\in(0.9,1.1)$. 
 We adopt the galaxy distribution characterized by 
-$n(z)\propto z^{\alpha}\mr{exp}[-(z/z^{*})^\beta]$
+$n^P(z^P)dz^P\propto z^{P,\alpha}\mr{exp}[-(z^P/z^{*})^\beta]$
 with $\alpha=2$, $z^*=0.5$, $\beta=1$
-and assume the photo-$z$ scatter $\mathcal{P}(z_\mr{p}|z)$ is perfectly known to be in a Gaussian form with photo-$z$ error $\sigma_z=0.05(1+z)$.
+and assume the photo-$z$ scatter $P(z^P|z)$ is perfectly known to be in a Gaussian form with photo-$z$ error $\sigma_P=0.05(1+z)$.
 The 2D angular galaxy distribution is given by
 \begin{eqnarray}
-\delta_\mr{2D}(\bm{\theta})=\int_0^\infty dzW_\mr{p}(z)
+\delta_\mr{2D}(\bm{\theta})=\int_0^\infty dzW(z)
 \delta(\chi\bm{\theta},\chi(z))\ ,
 \end{eqnarray}
 where the window function 
 \begin{eqnarray}
-W_\mr{p}(z)\propto\int_{0.9}^{1.1} n(z) \mathcal{P}(z_\mr{p}|z) dz_\mr{p}\ 
+W(z)=\int_{0.9}^{1.1}P(z^P|z) n^P(z^P) dz^P\ . 
 \end{eqnarray}
-with normalization $\int W_\mr{p}(z)dz=1$.
 
-(3) ISW effect.---The fractional CMB temperature fluctuations induced by the 
-ISW effect is given as 
+(3) ISW effect.---ISW is the observed CMB temperature fluctuations induced by the integral of the late-time potential variation
 \begin{eqnarray}
-\bigg(\frac{\Delta T}{T}\bigg)_\mr{ISW}(\bm\theta)=-2\int_0^{\chi_s}d\chi
-\frac{\partial\Phi(\chi\bm{\theta},\chi)}{\partial\chi}\ .
+\frac{\Delta T}{T}(\bm\theta)=2\int \dot\Phi(\bm{\theta},t)dt\ .
 \end{eqnarray}
-In Fourier space, approximating that the evolution of $\delta(\bm{k},t)$ with 
-time is given by linear theory
+In Fourier space, approximating that the evolution of the overdensity field with time is given by linear theory
 $\dot\delta(\bm{k},t)=\dot D(t)\delta(\bm{k},t=0)$, we have
 \begin{eqnarray}
-\frac{\partial\Phi(\bm{k},\chi)}{\partial\chi}=-\frac{3\Omega_{m0}H_0^2}
-{2a(\chi)}\frac{\partial\mr{ln}(D/a)}{\partial\chi}
-\frac{\delta(\bm{k},\chi)}{k^2}\ ,
+\dot\Phi(\bm{k},t)=\frac{3}{2}\Omega_{m0}\frac{H_0^2}{k^2}\frac{\delta(\bm{k},t)}{a(t)}H(t)(1-\beta(t))\ ,
 \end{eqnarray}
-where $D$ is the growth factor.
-In our implementation, we also approximate the time dependent factor as a 
-constant across the simulation box.
+where $\beta(t)=d\ln D(t)/d\ln a(t)$ and $D(t)$ is the growth factor.
+In our implementation, we also approximate the $\beta(t)$ as a constant across the simulation box.
+
 
 \begin{figure}[tbp]
 \begin{center}
 \includegraphics[width=0.48\textwidth]{f8.eps}
 \end{center}
 \vspace{-1.9cm}
-\caption{The cross power spectrum of 21cm and other cosmic observations  
-for $R_\parallel=60\ \mr{Mpc}/h$.}
+\caption{The cross correlation signal between 21cm and other cosmic probes for
+$R_\parallel=60\ \mr{Mpc}/h$.}
 \label{fig:cs}
 \end{figure}
 
-In Fig. \ref{fig:cc}, we show the cross correlation coefficients of 21cm with 
+In Fig. \ref{fig:cc}, we show the cross correlation coefficients for 21cm with 
 different observations for both $R_\parallel=60\ \mr{Mpc}/h$ and 
-$15\ \mr{Mpc}/h$. Due to the similar treatments of CMB lensing field
+$R_\parallel=15\ \mr{Mpc}/h$. Due to the similar treatment of CMB lensing field
 and the ISW field, we get the same correlation coefficient for them. 
-The correlation with photo-$z$ galaxies is smaller than the other
-two since we use a narrow bin which locates at $z=1$ with bin width $0.2$.
+The correlation coefficient for photo-$z$ galaxies is smaller than the other
+two since we use a narrow bin which locates at $z=1$ with bins width $0.2$.
 
-In Fig. \ref{fig:cs}, we show three cross correlation signals and noise
-levels \tcb{(is the green curve called noise level?)}. The error of  
-the signal is 
+In Fig. \ref{fig:cs}, we show the three cross correlation signals and the noise
+levels for the signal \tcb{(is the green curve called noise level?)}. The error
+on the signal is given by
 \begin{eqnarray}
-(\Delta C_\ell^{ij})^2=\frac{1}{(2\ell+1)\Delta\ell f_\mr{sky}}
-\bigg[{(C_\ell^{ij})^2+(C_\ell^{i}+n_\ell^{i})
-(C_\ell^{j}+n_\ell^{j})}\bigg].
+\sigma_{C_\ell}=\frac{1}{(2\ell+1)\Delta_\ell f_\mr{sky}}
+\bigg[{(C_\ell^{\alpha\beta})^2+(C_\ell^{\alpha}+n_\ell^{\alpha})
+(C_\ell^{\beta}+n_\ell^{\beta})}\bigg].
 \end{eqnarray}
 For the 21cm field, $n_\ell^\mr{21cm}$ is given through Eq.(\ref{eq:kapc}). 
-The noise for CMB lensing is assumed to be the same as Planck 2015 results 
-\cite{2015:plancklensing}. For photo-$z$ galaxies, the shot noise is negligible
-on degree scales. For ISW effect, $n_\ell^\mr{ISW}$ is the large scale
+The noise for CMB lensing is assumed to be the same as $Planck\ 2015$ results 
+\cite{2015:plancklensing}. For ISW effect, $n_\ell^\mr{ISW}$ is the large scale
 CMB power spectrum $C_\ell^{TT}$. We choose $f_\mr{sky}$ to be $0.25$ for 
 CMB lensing and photo-$z$ galaxies, and $1$ for the ISW effect. We find by
 using cosmic tidal reconsruction, we are able to detect the cross correlation
 signals with ongoing 21cm experiments \cite{2014SPIE.9145E..22B,2014SPIE.9145E..4VN,2012IJMPS..12..256C,2015ApJ...798...40X}. 
-The redshift information contained in 21cm observations allow us to constrain
+The redshift information contained in 21cm observations allows us to constrain
 the expansion history of the Universe by cross correlating with the ISW effect.
 The detectability for ISW effect can be further improved by including CMB 
 polarization data \cite{2011PhRvD..83f3001L}.
 
 {\it Discussion.}---It may seem to be odd that the modes lost appear again
-after reconstruction. This can be understood intuitively.
+after reconstruction. This can be undertanded intuitively.
 The reconstructed field $\kappa_c$ is given by the linear combination of 
 quadratic estimators, in the form of 
 $\kappa_c(\bm{x})\sim\delta_{fs}(\bm{x})\delta_{fs}(\bm{x})$. In Fourier 
@@ -426,7 +419,7 @@ on above discussions, we conclude that cosmic tidal reconstruction is extremely
 valuable for all cosmological 21cm surveys as well as CMB and photometric
 redshift observations.
 
-We acknowledge helpful discussions with Alex van Engelen, Marcelo Alvarez,
+We acknowledge helpful discussions with Marcelo Alvarez, Alex van Engelen,
 Philippe Berger, Yi-Chao Li and Shifan Zuo.
 Our simulation computations were performed on the BlueGene/Q supercomputer 
 located at the University of Toronto’s SciNet HPC facility.
