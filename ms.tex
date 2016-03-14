@@ -91,9 +91,9 @@ Planck \cite{2015arXiv150201582P}, CMB-S4 \cite{2014ApJ...788..138W}\cite{2013ar
 In addition to these
 experiments, 21cm intensity mapping has emerged as a powerful probe of the 
 cosmological large scale structure \cite{2008:21cm}\cite{chang}.
-However, the astrophysical foregrounds from galatic and extra-galatic 
+However, the astrophysical foregrounds from galactic and extra-galactic
 synchrotron and free-free emissions are stronger than the cosmological 21cm 
-signal by many orders of magnitude. These foregrounds are expected to be 
+signals by many orders of magnitude. These foregrounds are expected to be 
 spectrally smooth, which means they would contaminate small radial
 modes, i.e. all modes with low $k_\parallel$.
 While there are not many modes with small $k_\parallel$, many other cosmic
@@ -106,7 +106,7 @@ Thus this makes it very hard to cross correlate these cosmic probes with
 To study how to solve this problem is of great importance for both 21cm 
 intensity mapping surveys and other cosmic surveys.
 
-Recently an new method called {\it cosmic tidal reconstruction} has been 
+Recently a new method called {\it cosmic tidal reconstruction} has been 
 developed \cite{2012:pen}\cite{2015:zhu}, it can reconstruct the large scale 
 tidal field and hence large scale density field from the alignment of small 
 scale cosmic structures.
@@ -175,7 +175,7 @@ The reconstruction works best for modes with low $k_\parallel$ and high
 $k_\perp$, which can not be obtained from 21cm surveys and contribute 
 substantially to cosmological observables from other surveys mentioned above.
 Thus cosmic tidal reconstruction provides a good opportunity to recover lost 
-radial modes and improve the cross correlations.
+radial modes and improves the cross correlations.
 
 The tidal reconstrction works as follows. The first step is to convolve
 the density field with a Gaussian kernel, $S(\bm{k})=e^{-k^2R^2/2}$, which
@@ -184,7 +184,7 @@ Here we still take $R=1.25\ \mr{Mpc}/h$ \cite{2012:pen}\cite{2015:zhu}.
 Next step is to gaussianize the smoothed density field by taking a logarithmic
 transform or ranking the density fluctuations into a Gaussian distribution.
 In the following reconstruction, we adopt the latter as after the simulated
-foreground subtraction, some of the density contrasts becomes smaller than $-1$,
+foreground subtraction, some of the density contrasts become smaller than $-1$,
 which makes it hard to take the logarithmic transform, $\mathrm{ln}(1+\delta)$.
 The gravitational tidal shear fields can be estimated by applying quadratic 
 tidal shear estimators $\hat{\gamma}_1$ and $\hat{\gamma}_2$ to the density 
@@ -269,7 +269,7 @@ ratio between $P_{\delta_{fs}}$ and $P_{\delta}$ and the lower panel shows the
 ratio between $P_{\kappa_c}$ and $P_\delta$ for $R_\parallel=60\ \mr{Mpc}/h$. 
 We find the lost radial modes appear again in the reconstructed field.
 
-{\it Cross correlation signal.}---To show how much the cross correlation signal
+{\it Cross-correlation signal.}---To show how much the cross correlation signal
 is improved by cosmic tidal reconstruction and study the dectability of the
 cross correlation, we need to generate the lensing convergence field,
 the angular distribution of photo-$z$ galaxies and the temperature fluctuation
@@ -280,7 +280,9 @@ due to the ISW effect using $N$-body simulations.
 \includegraphics[width=0.48\textwidth]{fig1b.eps}
 \end{center}
 \vspace{-0.7cm}
-\caption{Cross correlation coefficients. Cosmic tidal reconstruction recovers 
+\caption{Cross correlation coefficients of 21cm with 
+different observations for both $R_\parallel=60\ \mr{Mpc}/h$ and 
+$15\ \mr{Mpc}/h$. Cosmic tidal reconstruction recovers 
 about 60\% signal at $\ell\sim100$ and much better results are obtained on 
 larger scales. The error bars are estimated using the bootstrap resampling 
 method.}
@@ -352,7 +354,10 @@ constant across the simulation box.
 \includegraphics[width=0.48\textwidth]{f8.eps}
 \end{center}
 \vspace{-1.9cm}
-\caption{The cross power spectrum of 21cm and other cosmic observations  
+\caption{(Top) The cross correlation of 21cm and CMB lensing.
+(Middle) The correlation of 21cm and photo-$z$ galaxies. (Bottom) The
+correlation of 21cm and ISW effect. The red curves show the signals and the 
+green curves show the corresponding noise levels. Here the results are 
 for $R_\parallel=60\ \mr{Mpc}/h$.}
 \label{fig:cs}
 \end{figure}
@@ -364,11 +369,13 @@ and the ISW field, we get the same correlation coefficient for them.
 The correlation with photo-$z$ galaxies is smaller than the other
 two since we use a narrow bin which locates at $z=1$ with bin width $0.2$.
 
-In Fig. \ref{fig:cs}, we show three cross correlation signals and noise
-levels \tcb{(is the green curve called noise level?)}. The error of  
+In Fig. \ref{fig:cs}, we show three cross-correlation signals and noise
+levels for cross-correlation signals 
+$(C_\ell^in_\ell^j+n_\ell^iC_\ell^j+n^i_\ell n^j_\ell)^{1/2}$
+\tcb{(is the green curve called noise level?)}. The error of  
 the signal is 
 \begin{eqnarray}
-(\Delta C_\ell^{ij})^2=\frac{1}{(2\ell+1)\Delta\ell f_\mr{sky}}
+(\Delta C_\ell^{ij})^2=\frac{1}{(2\ell+1)f_\mr{sky}\ell}
 \bigg[{(C_\ell^{ij})^2+(C_\ell^{i}+n_\ell^{i})
 (C_\ell^{j}+n_\ell^{j})}\bigg].
 \end{eqnarray}
@@ -380,7 +387,7 @@ CMB power spectrum $C_\ell^{TT}$. We choose $f_\mr{sky}$ to be $0.25$ for
 CMB lensing and photo-$z$ galaxies, and $1$ for the ISW effect. We find by
 using cosmic tidal reconsruction, we are able to detect the cross correlation
 signals with ongoing 21cm experiments \cite{2014SPIE.9145E..22B,2014SPIE.9145E..4VN,2012IJMPS..12..256C,2015ApJ...798...40X}. 
-The redshift information contained in 21cm observations allow us to constrain
+The redshift information contained in 21cm observations allows us to constrain
 the expansion history of the Universe by cross correlating with the ISW effect.
 The detectability for ISW effect can be further improved by including CMB 
 polarization data \cite{2011PhRvD..83f3001L}.
@@ -394,7 +401,7 @@ space this can be written as $\kappa_c(\bm{k})\sim\int d^3k'
 \delta_{fs}(\bm{k}')\delta_{fs}(\bm{k}-\bm{k}')$, i.e. the reconstructed 
 field is given by the convolution of $\delta_{fs}(\bm{k}')$ and 
 $\delta_{fs}(\bm{k}-\bm{k}')$. Although $\delta_{fs}$ has no small radial
-nodes, i.e. $k_{\parallel}'$ and $k_\parallel-k_{\parallel}'$ can not be small,
+modes, i.e. $k_{\parallel}'$ and $k_\parallel-k_{\parallel}'$ can not be small,
 $k_\parallel$ can reach the low $k_\parallel$ regime.
 Here we extract the information about matter distribution on large scales 
 contained in the small scale matter distributions. The power spectrum of 
@@ -408,7 +415,7 @@ long wavelength limit \cite{2015:zhu}.
 The results can still be improved by constructing optimal tidal shear 
 estimators for non-Gaussian sources as in 21cm lensing \cite{2010:lu} and 
 considering the general case. This means here we present the ``least optimal''
-case of recovering the cross correlation signals and even better results can be
+case of recovering the cross-correlation signals and even better results can be
 achieved in future.
 
 The BAO reconstruction technique \cite{2007:bao} has been shown to be still
@@ -420,18 +427,18 @@ The tidal reconstruction compensates the foreground wedge at low $k_\parallel$
 and high $k_\perp$ and hence can further improve the BAO reconstruction in 
 21cm surveys. Since all cosmological 21cm experiments share the same foreground
 problem, no matter low redshift surveys for BAO or high redshift observations
-for the EOR signal, the tidal reconstruction can also help high redshift cross 
-correlations like the 21cm-kSZ signal from EOR \cite{2015:marcelo}. Based
+for the EOR signal, the tidal reconstruction can also help high redshift 
+cross-correlations like the 21cm-kSZ signal from EOR \cite{2015:marcelo}. Based
 on above discussions, we conclude that cosmic tidal reconstruction is extremely
 valuable for all cosmological 21cm surveys as well as CMB and photometric
 redshift observations.
 
 We acknowledge helpful discussions with Alex van Engelen, Marcelo Alvarez,
 Philippe Berger, Yi-Chao Li and Shifan Zuo.
-Our simulation computations were performed on the BlueGene/Q supercomputer 
-located at the University of Toronto’s SciNet HPC facility.
+The simulations were performed on the BGQ supercomputer 
+at the SciNet HPC consortium.
 SciNet is funded by the CFI under the auspices of Compute Canada, 
-the Government of Ontario, the Ontario Research Fund – Research Excellence;
+the Government of Ontario; the Ontario Research Fund -- Research Excellence;
 and the University of Toronto.
 We acknowledge the support of the Chinese MoST 863 program under Grant 
 No. 2012AA121701, the CAS Science Strategic Priority Research Program 
