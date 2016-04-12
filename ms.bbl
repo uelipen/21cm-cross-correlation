@@ -1,4 +1,4 @@
-\begin{thebibliography}{28}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -28,22 +28,6 @@
   \bibinfo{author}{\bibfnamefont{T.~S.} \bibnamefont{{Axelrod}}},
   \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
   (\bibinfo{year}{2009}), \eprint{0912.0201}.
-
-\bibitem[{\citenamefont{{Laureijs} et~al.}(2011)\citenamefont{{Laureijs},
-  {Amiaux}, {Arduini}, {Augu{\`e}res}, {Brinchmann}, {Cole}, {Cropper},
-  {Dabin}, {Duvet}, {Ealet} et~al.}}]{2011:euclid}
-\bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Laureijs}}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Amiaux}}},
-  \bibinfo{author}{\bibfnamefont{S.}~\bibnamefont{{Arduini}}},
-  \bibinfo{author}{\bibfnamefont{J.~.} \bibnamefont{{Augu{\`e}res}}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Brinchmann}}},
-  \bibinfo{author}{\bibfnamefont{R.}~\bibnamefont{{Cole}}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Cropper}}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Dabin}}},
-  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{{Duvet}}},
-  \bibinfo{author}{\bibfnamefont{A.}~\bibnamefont{{Ealet}}},
-  \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
-  (\bibinfo{year}{2011}), \eprint{1110.3193}.
 
 \bibitem[{\citenamefont{{Amendola} et~al.}(2013)\citenamefont{{Amendola},
   {Appleby}, {Bacon}, {Baker}, {Baldi}, {Bartolo}, {Blanchard}, {Bonvin},
@@ -92,22 +76,6 @@
   \bibinfo{author}{\bibfnamefont{O.}~\bibnamefont{{Zahn}}},
   \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{788}}, \bibinfo{eid}{138}
   (\bibinfo{year}{2014}), \eprint{1402.4108}.
-
-\bibitem[{\citenamefont{{Abazajian} et~al.}(2013)\citenamefont{{Abazajian},
-  {Arnold}, {Austermann}, {Benson}, {Bischoff}, {Bock}, {Bond}, {Borrill},
-  {Calabrese}, {Carlstrom} et~al.}}]{2013arXiv1309.5383A}
-\bibinfo{author}{\bibfnamefont{K.~N.} \bibnamefont{{Abazajian}}},
-  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Arnold}}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Austermann}}},
-  \bibinfo{author}{\bibfnamefont{B.~A.} \bibnamefont{{Benson}}},
-  \bibinfo{author}{\bibfnamefont{C.}~\bibnamefont{{Bischoff}}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Bock}}},
-  \bibinfo{author}{\bibfnamefont{J.~R.} \bibnamefont{{Bond}}},
-  \bibinfo{author}{\bibfnamefont{J.}~\bibnamefont{{Borrill}}},
-  \bibinfo{author}{\bibfnamefont{E.}~\bibnamefont{{Calabrese}}},
-  \bibinfo{author}{\bibfnamefont{J.~E.} \bibnamefont{{Carlstrom}}},
-  \bibnamefont{et~al.}, \bibinfo{journal}{ArXiv e-prints}
-  (\bibinfo{year}{2013}), \eprint{1309.5383}.
 
 \bibitem[{\citenamefont{{Chang} et~al.}(2008)\citenamefont{{Chang}, {Pen},
   {Peterson}, and {McDonald}}}]{2008:21cm}
@@ -159,7 +127,7 @@
   \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{{Yu}}},
   \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Er}}}, \bibnamefont{and}
   \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Chen}}},
-  \bibinfo{journal}{ArXiv e-prints}  (\bibinfo{year}{2015}),
+  \bibinfo{journal}{arXiv e-prints}  (\bibinfo{year}{2015}),
   \eprint{1511.04680}.
 
 \bibitem[{\citenamefont{{Schmidt} et~al.}(2014)\citenamefont{{Schmidt},
@@ -208,31 +176,6 @@
   Photo-Optical Instrumentation Engineers (SPIE) Conference Series}},
   p.~\bibinfo{pages}{22}, \eprint{1406.2288}.
 
-\bibitem[{\citenamefont{{Newburgh} et~al.}(2014)\citenamefont{{Newburgh},
-  {Addison}, {Amiri}, {Bandura}, {Bond}, {Connor}, {Cliche}, {Davis}, {Deng},
-  {Denman} et~al.}}]{2014SPIE.9145E..4VN}
-\bibinfo{author}{\bibfnamefont{L.~B.} \bibnamefont{{Newburgh}}},
-  \bibinfo{author}{\bibfnamefont{G.~E.} \bibnamefont{{Addison}}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Amiri}}},
-  \bibinfo{author}{\bibfnamefont{K.}~\bibnamefont{{Bandura}}},
-  \bibinfo{author}{\bibfnamefont{J.~R.} \bibnamefont{{Bond}}},
-  \bibinfo{author}{\bibfnamefont{L.}~\bibnamefont{{Connor}}},
-  \bibinfo{author}{\bibfnamefont{J.-F.} \bibnamefont{{Cliche}}},
-  \bibinfo{author}{\bibfnamefont{G.}~\bibnamefont{{Davis}}},
-  \bibinfo{author}{\bibfnamefont{M.}~\bibnamefont{{Deng}}},
-  \bibinfo{author}{\bibfnamefont{N.}~\bibnamefont{{Denman}}},
-  \bibnamefont{et~al.}, in \emph{\bibinfo{booktitle}{Society of Photo-Optical
-  Instrumentation Engineers (SPIE) Conference Series}} (\bibinfo{year}{2014}),
-  vol. \bibinfo{volume}{9145} of \emph{\bibinfo{series}{Society of
-  Photo-Optical Instrumentation Engineers (SPIE) Conference Series}}, p.
-  \bibinfo{pages}{91454V}, \eprint{1406.2267}.
-
-\bibitem[{\citenamefont{{Chen}}(2012)}]{2012IJMPS..12..256C}
-\bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Chen}}},
-  \bibinfo{journal}{International Journal of Modern Physics Conference Series}
-  \textbf{\bibinfo{volume}{12}}, \bibinfo{pages}{256} (\bibinfo{year}{2012}),
-  \eprint{1212.6278}.
-
 \bibitem[{\citenamefont{{Xu} et~al.}(2015)\citenamefont{{Xu}, {Wang}, and
   {Chen}}}]{2015ApJ...798...40X}
 \bibinfo{author}{\bibfnamefont{Y.}~\bibnamefont{{Xu}}},
@@ -240,6 +183,9 @@
   \bibinfo{author}{\bibfnamefont{X.}~\bibnamefont{{Chen}}},
   \bibinfo{journal}{\apj} \textbf{\bibinfo{volume}{798}}, \bibinfo{eid}{40}
   (\bibinfo{year}{2015}), \eprint{1410.7794}.
+
+\bibitem[{HIR()}]{HIRAX}
+\bibinfo{howpublished}{http://www.acru.ukzn.ac.za/~hirax/}.
 
 \bibitem[{\citenamefont{{Masui} et~al.}(2013)\citenamefont{{Masui}, {Switzer},
   {Banavar}, {Bandura}, {Blake}, {Calin}, {Chang}, {Chen}, {Li}, {Liao}
